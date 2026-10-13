@@ -1,0 +1,1 @@
+-- 1. create star schema tables
