@@ -1,31 +1,31 @@
-.# 🗄️ Local databases
+.# Local databases
 *.duckdb
 *.duckdb.wal
 *.sqlite
 *.db
 
-# 📊 Raw data
+# Raw data
 /data/raw/
 /data/tmp/
 /data/intermediate/
 /exports/
 
-# 🔐 Secrets
+# Secrets
 .env
 .env.*
 *.key
 *.pem
 
-# 💻 System files
+# System files
 .DS_Store
 Thumbs.db
 
-# 📂 Logs and temp files
+# Logs and temp files
 logs/
 tmp/
 *.log
 
-# ⚙️ Tooling (dbt, VS Code, venvs, etc.)
+# Tooling (dbt, VS Code, venvs, etc.)
 target/
 .idea/
 .vscode/
