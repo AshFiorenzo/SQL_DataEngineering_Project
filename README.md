@@ -18,7 +18,7 @@ trends uing advanced querying techniques.
 
 ### [2.Data Warehouse & Data Marts](/2_DW_Mart_build/) - Building a Data Pipeline with Data Warehouse & Data Marts
 
-![data_pipeline_architecture](images/Project2_Data_Pipeline.png)
+![data_pipeline_architecture](Images/Project2_Data_Pipeline.png)
 
 End-to-end ETL pipeline transforming raw CSV files
 into a star schema data warehouse and analytical
