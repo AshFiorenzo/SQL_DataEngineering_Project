@@ -5,3 +5,6 @@
 
 -- step2 - load data from csv files into tables
 .read 2_load_schema_dw.sql
+
+-- step 3 - create flat mart table
+.read 3_create_flat_mart.sql
