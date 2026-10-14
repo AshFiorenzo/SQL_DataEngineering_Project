@@ -26,3 +26,18 @@ SELECT
     skill_id, job_id
 FROM
     read_csv('https://storage.googleapis.com/sql_de/skills_job_dim.csv', AUTO_DETECT = TRUE);
+
+
+-- data validation queries 
+select 'company_dim' as table_name, count(*) as record_count from company_dim
+UNION ALL
+select 'skills_dim', count(*) from skills_dim
+UNION ALL 
+select 'job_postings_fact', count(*) from job_postings_fact
+UNION ALL 
+select 'skills_job_dim', count(*) from skills_job_dim;
+
+select * from company_dim LIMIT 5;
+select * from skills_dim LIMIT 5;
+select * from job_postings_fact LIMIT 5;
+select * from skills_job_dim LIMIT 5;
